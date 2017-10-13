@@ -1,0 +1,6 @@
+1.Put your source data file under the path of "\NERExp\Data\data"
+2.Run NERExpMain.py in Command line using "python NERExpMain.py -iter iter_times -source source_data_file"
+3.iter_times means the times of random experiments, source_data_file means the new corpus data needed to be tested
+4.Default iter_times is 10 and default source_data_file is "CorpusLabelData_MergedFilter"
+5.Experiments results are recorded in result-record.txt
+6.The wrongly labeled sentences are recorded in LogWrongSents.txt
